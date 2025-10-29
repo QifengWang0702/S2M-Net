@@ -15,7 +15,7 @@
 It builds a fully differentiable pipeline mapping angularly ordered slices to anatomically interpretable meshes.
 
 <p align="center">
-  <img src="https://github.com/QifengWang0702/S2M-Net/assets/overview.png" width="800">
+  <img src="assets/overview.png" width="800">
 </p>
 
 **Four core components:**
@@ -26,7 +26,7 @@ It builds a fully differentiable pipeline mapping angularly ordered slices to an
 
 **Slice2mesh reconstruction results:**
 <p align="center">
-  <img src="https://github.com/QifengWang0702/S2M-Net/assets/res.png" width="800">
+  <img src="assets/res.png" width="800">
 </p>
 
 
@@ -83,7 +83,7 @@ Edit key paths and parameters in train.py (CFG class):
 ```bash
 data_root   = '/path/to/FeEcho4D-Dataset'
 encoder_name= 'unet'   # cnn / unet / resunet / transunet / sam
-out_root    = './FeEcho4D-Results/unet_2'
+out_root    = './FeEcho4D-Results/unet '
 S           = 37       # number of radial slices
 ```
 Run training:
