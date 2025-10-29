@@ -8,7 +8,7 @@
 
 > The non end-to-end reconstruction method is available at 🔗 [GHDHeart](https://github.com/Luo-Yihao/GHDHeart)
 
----
+
 ## 🌟 Highlights
 
 **S²M-Net** reconstructs a 3D fetal cardiac surface directly from sparse 2D ultrasound slices sampled radially around the ventricular long axis.  
@@ -28,7 +28,7 @@ It builds a fully differentiable pipeline mapping angularly ordered slices to an
 <p align="center">
   <img src="https://github.com/QifengWang0702/S2M-Net/assets/res.png" width="800">
 </p>
----
+
 
 ## 🌐 Project Structure
 
