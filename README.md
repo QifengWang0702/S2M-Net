@@ -36,10 +36,11 @@ FeEcho4D-Dataset/
     └── Patient0XX_time0XX.npz
 ```
 Each .npz file contains:
-	•	x → [37, 5, 256, 256] radial slice sequence
-	•	GH, R, s, T → GHD coefficients and transformation parameters
-	•	patient, time (optional, used for naming and export)
-
+```bash
+x → [37, 5, 256, 256] radial slice sequence
+GH, R, s, T → GHD coefficients and transformation parameters
+patient, time (optional, used for naming and export)
+```
 
 ## ⚙️ Environment Setup
 
