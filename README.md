@@ -14,24 +14,20 @@
 **S²M-Net** reconstructs a 3D fetal cardiac surface directly from sparse 2D ultrasound slices sampled radially around the ventricular long axis.  
 It builds a fully differentiable pipeline mapping angularly ordered slices to anatomically interpretable meshes.
 
+<p align="center">
+  <img src="https://github.com/QifengWang0702/S2M-Net/assets/overview.png" width="800">
+</p>
+
 **Four core components:**
 1. **Slice Encoder** — Lightweight UNet-style feature extractor with depthwise–pointwise convolution and early downsampling.  
 2. **Hybrid Radial Positional Encoding (HRPE)** — Combines sinusoidal periodicity and learnable anatomical bias for angularly aligned representations.  
 3. **Radial Geometry-Aware Transformer (RGAT)** — Models circular continuity and inter-slice symmetry via angular attention priors.  
 4. **Spectral Geometry Decoder (SGD)** — Predicts graph-harmonic deformation coefficients and global transformations for differentiable mesh reconstruction.
 
-Overall pipeline:
-\[
-\{X_i\}_{i=1}^{S}
-\;\xrightarrow[\text{(1)}]{\text{Encoder}}
-F
-\;\xrightarrow[\text{(2)}]{\text{HRPE}}
-\tilde{F}
-\;\xrightarrow[\text{(3)}]{\text{RGAT}}
-g
-\;\xrightarrow[\text{(4)}]{\text{SGD}}
-\hat{V}
-\]
+**Slice2mesh reconstruction results:**
+<p align="center">
+  <img src="https://github.com/QifengWang0702/S2M-Net/assets/res.png" width="800">
+</p>
 ---
 
 ## 🌐 Project Structure
