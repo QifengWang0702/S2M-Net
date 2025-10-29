@@ -1,7 +1,9 @@
-# 🫀 FeEcho4D Slice-to-Mesh (S²M-Net)
+# 🫀 Sparse Slice-to-Mesh (S²M-Net)
 
-> End-to-end framework for reconstructing 3D fetal cardiac meshes directly from sparse radial ultrasound slices.  
-> Supports Graph Harmonic Deformation (GHD) parameter supervision, differentiable geometric loss, and 2D radial silhouette consistency.
+> End-to-End Sparse Slice-to-Mesh Reconstruction for Fetal Cardiac Ultrasound Anatomy
+> Our dataset **FeEcho4D** can be viewed at 🔗 [https://feecho4d.github.io/Website/](https://feecho4d.github.io/Website/)  
+> The non end-to-end reconstruction method **GHD** (Graph Harmonic Deformation) is available at 🔗 [https://github.com/Luo-Yihao/GHDHeart](https://github.com/Luo-Yihao/GHDHeart)
+
 
 ---
 
