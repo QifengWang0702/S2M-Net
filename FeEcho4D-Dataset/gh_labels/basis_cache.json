@@ -1,0 +1,11 @@
+{
+  "base_shape_path": "/media/yaplab/\"HDD Storage\"/Qifeng/FH4D-by-GHD/GHDHeart/canonical_shapes/Standard_LV_2000_fetal256.obj",
+  "base_shape_sha256": "ddd397928837b88d3013153828e72808ad7c05c49a2cccf2420238fa70c2ded4",
+  "num_basis": 49,
+  "mix_laplacian_tradeoff": {
+    "cotlap": 1.0,
+    "dislap": 0.3,
+    "stdlap": 0.3
+  },
+  "format": "pt-tuple(GH_eigval, GH_eigvec)"
+}
