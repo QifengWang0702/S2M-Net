@@ -3,7 +3,9 @@
 # 🫀 Sparse Slice-to-Mesh (S²M-Net)
 
 > End-to-End Sparse Slice-to-Mesh Reconstruction for Fetal Cardiac Ultrasound Anatomy
-> Our dataset **FeEcho4D** can be viewed at 🔗 [FeEcho4D](https://feecho4d.github.io/Website/)  
+
+> Our dataset **FeEcho4D** can be viewed at 🔗 [FeEcho4D](https://feecho4d.github.io/Website/)
+
 > The non end-to-end reconstruction method is available at 🔗 [GHDHeart](https://github.com/Luo-Yihao/GHDHeart)
 
 
